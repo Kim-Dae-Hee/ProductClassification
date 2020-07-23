@@ -2,6 +2,7 @@
 ![전체 흐름도](Images/전체_흐름도.png)
 QR 코드가 부착된 물품이 오류인지 판별하는 프로그램입니다.
 이 프로그램을 통해서 사용자는 날짜별로 정상과 오류 물품의 개수를 확인할 수 있습니다.
+
 (시연 동영상 : https://www.youtube.com/watch?v=1WmiCw99rDA)
 
 # 사용기술
@@ -10,6 +11,7 @@ QR 코드가 부착된 물품이 오류인지 판별하는 프로그램입니다.
 * C# 3.0+, Python 3.7
 
 ### 프레임워크
+* .Net Framework
 * ASP.Net Web API
 * Entity Framework
 * Winform
@@ -22,6 +24,7 @@ QR 코드가 부착된 물품이 오류인지 판별하는 프로그램입니다.
 
 # 데이터베이스 테이블
 ![데이터베이스 테이블](Images/데이터베이스_테이블.png)
+
 isDefective가 true이면 오류 false면 정상 제품입니다.
 
 # 설명
