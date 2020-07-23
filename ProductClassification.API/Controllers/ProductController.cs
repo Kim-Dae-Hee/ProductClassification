@@ -5,7 +5,6 @@ using System.Web.Http;
 using System.Web.Http.Description;
 using ProductClassification.Data;
 
-
 namespace ProductClassification.API.Controllers
 {
     public class ProductController : ApiController
