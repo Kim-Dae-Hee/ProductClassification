@@ -66,7 +66,19 @@ ASP.Net Web API 응용프로그램을 IIS(Internet Information Sevices)에 배포해서 서버
 실시간으로 DB를 모니터링하기 위해 Timer 클래스를 이용해 10초마다 DB에 저장된 물품의 개수를 확인했습니다.
 
 # Point Of Interset
+## UnitTest Test Explorer하는 과정에서 시스템 오류 문제
 
+### 증상
+* 시스템오류: 애플리케이션 구성 파일에서 ProductClassificationEntities 라는 이름의 연결 문자를 찾을 수 없음
+
+### 원인
+* App.config파일에  <connectionStrings> 추가를 하지 않았다.
+
+### 결과
+* App.config파일에  <connectionStrings> 추가하였다.
+
+![캡처](Images/캡처.PNG)
+ 
 ### 증상1
 Chart에 정상제품과 오류제품의 개수를 실시간으로 나타내기 어려웠습니다.  
 
