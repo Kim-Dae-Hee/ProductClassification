@@ -8,7 +8,7 @@ namespace ProductClassification.Data
 {
     public class DataRepository
     {
-        public static ProductData Product { get; set; } = new ProductData();
+        public static ProductData Product { get; } = new ProductData();
     
     }
 }

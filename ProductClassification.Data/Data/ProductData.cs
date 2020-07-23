@@ -76,6 +76,17 @@ namespace ProductClassification.Data
             context.SaveChanges();
         }
 
+        public int GetMaxId()
+        {
+            ProductClassificationEntities context = CreateContext();
+
+            var query = from x in context.Products
+                        orderby x.ProductId descending
+                        select x.ProductId;
+
+            return query.FirstOrDefault();
+
+        }
     }
 
 }

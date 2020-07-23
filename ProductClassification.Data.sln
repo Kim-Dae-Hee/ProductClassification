@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductClassification.API",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductClassification", "ProductClassification\ProductClassification.csproj", "{A99B81F0-B4F5-4C95-96FA-B2D5720E801E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductClassification.UnitTest", "ProductClassification.UnitTest\ProductClassification.UnitTest.csproj", "{919735E9-4B5D-4391-A7EE-2821DE7E48AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A99B81F0-B4F5-4C95-96FA-B2D5720E801E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A99B81F0-B4F5-4C95-96FA-B2D5720E801E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A99B81F0-B4F5-4C95-96FA-B2D5720E801E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919735E9-4B5D-4391-A7EE-2821DE7E48AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919735E9-4B5D-4391-A7EE-2821DE7E48AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919735E9-4B5D-4391-A7EE-2821DE7E48AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919735E9-4B5D-4391-A7EE-2821DE7E48AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
