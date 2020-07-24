@@ -36,7 +36,7 @@ def insertQRcodeData(QRcodeData, isDefective):
     response = requests.post(address, data = json.dumps(user_data), headers = headers)
     print(response.text)
 
-def runCamera(serialFromArduino):
+def runCamera():
     for frame in camera.capture_continuous(rawCapture,format="bgr",use_video_port=True):
         image=frame.array
         cv2.imshow("Image",image)
@@ -69,7 +69,7 @@ try:
         value = int(serialFromArduino.readline())
         print(type(value), value)
         if value == 1:
-            runCamera(serialFromArduino)
+            runCamera()
             value = 0
         
 except:
