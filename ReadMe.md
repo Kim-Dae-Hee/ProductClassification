@@ -43,6 +43,10 @@ IsDefective가 true이면 오류 false면 정상 제품입니다.
 QR 코드 데이터는 Python zbar 라이브러리를 이용했습니다.
 (저희는 임의로 QR 코드가 4자리가 아니면 오류로 판별했습니다.)
 
+![Q R 코드 인식](Images/QR_코드_인식.png)
+
+QR 코드가 인식되면 화면에 빨간색 네모 박스를 그려줍니다.
+
 ### 1-3 라즈베리 파이 -> Web API
 ![라즈베리파이 Web A Pi](Images/라즈베리파이_WebAPi.png)
 
