@@ -81,7 +81,7 @@ ASP.Net Web API 응용프로그램을 IIS(Internet Information Sevices)에 배포해서 서버
 ### 해결
 * App.config파일에  connectionStrings 추가하여 해결했습니다.
 
-![캡처](Images/캡처.PNG)
+![Connection String](Images/connectionString.png)
  
 ## 2. 제품을 실시간으로 차트에 띄우는 문제 
 ### 증상
