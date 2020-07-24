@@ -29,7 +29,7 @@ IsDefective가 true이면 오류 false면 정상 제품입니다.
 
 # 설명
 
-## 1 구현 내용
+## 1. 구현 내용
 
 ### 1-1 아두이노 -> 라즈베리 파이
 ![Serial통신](Images/Serial통신.png)
