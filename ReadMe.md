@@ -100,7 +100,7 @@ ASP.Net Web API 응용프로그램을 IIS(Internet Information Sevices)에 배포해서 서버
 ### 해결
 * 컨베이어 벨트가 모터와 가변저항으로 구성된 것을 알게 되어 가변저항에 아날로그 신호를 보내서 컨베이어 벨트를 동작시켰습니다.
 
-## ASP.NET Web API 응용프로그램 배포 문제
+## 4. ASP.NET Web API 응용프로그램 배포 문제
 
 ### 증상
 * ASP.NET Web API 응용프로그램을 IIS에 배포할 때 어려움을 느꼈습니다.  
