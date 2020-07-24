@@ -76,10 +76,10 @@ ASP.Net Web API 응용프로그램을 IIS(Internet Information Sevices)에 배포해서 서버
 * 시스템 오류: 애플리케이션 구성 파일에서 ProductClassificationEntities 라는 이름의 연결 문자를 찾을 수 없었습니다.
 
 ### 원인
-* App.config파일에  connectionStrings을 추가를 하지 않아서였습니다.
+* App.config파일에 connectionStrings를 추가하지 않아서였습니다.
 
 ### 해결
-* App.config파일에  connectionStrings 추가하여 해결했습니다.
+* App.config파일에 connectionStrings를 추가하여 해결했습니다.
 
 ![Connection String](Images/connectionString.png)
  
